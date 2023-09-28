@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Website</title>
+    </head>
+    <!--These are the styles of my page-->
+    <style>
+        table, th, td {
+          fill: azure;
+          text-align: center;
+        }
+        colgroup {
+            display: table-column-group;
+            } 
+        div {
+            max-width: 1000px;
+            min-width: none;
+            text-align: justify;
+            margin-right: auto;
+            margin-left: auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        button {
+          background-color: #1aaee4;
+          padding: 20px, 20px, 20px, 20px;
+          margin: auto;
+          border-color: #1aaee4;
+        }
+        h1 {
+          text-align: center;
+          margin-right: auto;
+          margin-left: auto;
+        }
+        </style>
+    <body>
+        <h1 style="font-family:Segoe UI">About Me</h1>
+        <!--add a table with 2 columns with individual styles-->
+        <table align="center">
+            <colgroup>
+                <col span="1" style="background-color:#313131">
+                <col span="2" style="background-color:#313131;">
+              </colgroup>
+            <tr>
+            <!--Add a short description of yourself in column 1-->
+                <td style="color: #ffffff" width="500px">
+                    <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" style="font-size: 500px;" style="text-align: center;">CATHERINE VALDEZ <br> IS A UX DESIGNER <br> BASED  IN TORONTO</p>
+                <!--Use the <a> anchor tag to create a link to another website for example your LinkedIn profile, your Instagram or another platform-->
+                    <a href="https://www.linkedin.com"><img src="./linkedin (1).png" alt="Unable to show LinkedIn logo" width="30px" height="30px"></a>
+                    <a href="https://www.instagram.com"><img src="./instagram.png" alt="Unable to show Instagram logo" width="30px" height="30px"></a>
+                </td>
+            <!--Add an image that represents yourself or a hobby that you like in column 2-->
+            <!--Use <img> tag to do this--> 
+                <td style="display: block;" width="100%"><img src="./portfolioimage.jpeg" alt="Catherine Valdez"></td>
+            </tr>
+        </table>
+               
+        <br>
+
+        <div>
+            <!--Add a paragraph(s) about yourself using <p>-->
+            <p style="font-size: 22px;"><strong>Hi there, I am Catherine!</strong></p>
+            <p>I am a UX Designer with a foundation in Software Engineering and Data Analytics. I possess a deep appreciation for crafting immersive and user-centric experiences. Currently, I am furthering my expertise in UX Design through ongoing studies while gaining invaluable industry experience through an internship.</p>
+            <p style="font-size: 16px;"><strong>Passion for design</strong></p>
+            <p>Design has been a lifelong fascination for me. From a young age, I have always been captivated by the power of aesthetics and its ability to ccreate impactful experiences. Whether it's exploring architectures or crafting intuitive mobile and web applications, design is something that fuels my creative spirit.</p>
+            <p>I'm excited to dive into web design to bring my UXD program's prototype projects to life. While I don't have a coding background, I'm eager to build my skills and confidence in this area. Cheers!</p>
+            <p>Before diving into the world of UX Design, I worked as:</p>
+        
+        <table align="center">
+            <colgroup>
+                <col span="1" width="50%">
+                <col span="2" width="50%">
+              </colgroup>
+            <!--<caption>WORK EXPERIENCE</caption>-->
+            <tr>
+              <th style="background-color:#f1d8ca">ROLE</th>
+              <th style="background-color:#f1d8ca">DESCRIPTION</th>            
+            </tr>
+            <tr>
+              <td style="background-color:#d9d9d9">Software Engineering Analyst (SEA)</td>
+              <td style="background-color:#d9d9d9">I started as an SEA where I gained a solid foundation in software quality assurance methodologies and problem solving skills.</td>
+            </tr>
+            <tr>
+              <td style="background-color:#d9d9d9">UI Designer</td>
+              <td style="background-color:#d9d9d9" style="width: 700px;" style="text-align: left">Following my passion for design, I transitioned into the role of a UI Designer.</td>
+            </tr>
+            <tr>
+              <td style="background-color:#d9d9d9">BI Analyst</td>
+              <td style="background-color:#d9d9d9">I served as a BI Analyst in my last job, leveraging data insights to drive informed design decisions.</td>
+            </tr>
+          </table>
+                
+        <br>
+        <p>My <strong>INTERESTS</strong> when I am not designing</p>
+        <!--Add a table of images of interests!-->
+        <div>
+        <table align="center">
+            <colgroup>
+                <col span="1" width="200px">
+                <col span="2" width="200px">
+                <col span="3" width="200px">
+                <col span="4" width="200px">
+                <col span="5" width="200px">
+              </colgroup>
+            <tr>
+              <th style="background: color #313131;" width="20%">
+              </th>
+              <th style="background: color #313131;" width="20%"><img src="./beacchandsunsets.jpeg" alt="" width="200px" height="320px"></th>
+              <th style="background: color #313131;" width="20%"><img src="./cricket.jpeg" alt="" width="200px" height="320px"></th>
+              <th style="background: color #313131;" width="20%"><img src="./architectures.jpeg" alt="" width="200px" height="320px"></th>           
+              <th style="background: color #313131;" width="20%"><img src="./maki.jpeg" alt="" width="200px" height="320px"></th>
+            </tr>
+            <tr>
+              <td style="background-color:rgb(217, 217, 217, 0.5)">Traveling</td>
+              <td style="background-color:rgb(217, 217, 217, 0.5)">Beach and Sunsets></td>
+              <td style="background-color:rgb(217, 217, 217, 0.5)">Cats</td>
+              <td style="background-color:rgb(217, 217, 217, 0.5)">Architectures</td>
+              <td style="background-color:rgb(217, 217, 217, 0.5)">Dogs</td>
+            </tr>
+          </table>
+        </div>
+
+        <br>
+        <p style="text-align: center;" style="font-size: 50px;"><strong>Let's Connect!</strong><br>
+        <a href="https://mail.google.com"><button type="button">Email Catherine</strong></button></a></p>
+        <br>
+
+        <p style="font-size: large;" style="margin: auto;">Thank you for visiting my page. Now, enjoy a cute video to brighten up your day! &#128512</p>
+             
+        <!--Use <iframe> to add a YouTube video about yourself or about something you are interested at-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mIYoasoNa5M?si=RtqX64dn8vF14wZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br><br>
+
+            <p style="font-weight: 700;">Programs at Humber</p>
+            <ul>
+              <li>
+                <a href="https://mediaarts.humber.ca/programs/ux-design.html">User Experience Design</a>
+              </li>
+              <li>
+                <a href="https://mediaarts.humber.ca/programs/web-design-and-development.html">Web Design and Development</a>
+              </li>
+              <li>
+                <a href="https://mediaarts.humber.ca/programs/interactive-media-management-creative-technologies.html">Interactive Media Management - Creative Technologies</a>
+              </li>
+            </ul>
+        </div>  
+        <br><br><br><br>
+    <!--TODO: add at least THREE new HTML elements that complete your profile-->
+    <!--TODO: Use comments to explain what you added-->    
+
+</body>
+    <script>
+        console.log("This is a test log.")
+    </script>
+</html>
