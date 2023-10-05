@@ -8,9 +8,19 @@ body {
     font-family: cursive;
   }
 
+  h3 {  /*update by patty: added h3 class to change font-family & color of WattWise title*/
+    font-weight: 200;
+    color: #f7771c;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: cursive;
+    text-align: center;
+
+  }
+
   .para { /*update by patty: added .para class to change font-family of WattWise paragraph*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 300;
+    font-weight: 200;
   }
 
 
