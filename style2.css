@@ -56,16 +56,16 @@ body {
     font-size: 22px; /*update by patty: changed font size*/
     font-weight: 600;
     font-family: cursive;
-    color: #f7771c;
-    background-color: rgb(241, 216, 202, 0.5); 
+    color: #ffffff;
+    background-color: rgba(243, 111, 36, 0.5); 
     padding: 5px 20px 5px 20px;
   }
   .workexrow {
     font-size: 15px;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #313131;
-    background-color: rgb(217, 217, 217, 0.5);
+    color: #000000;
+    background-color: rgba(244, 229, 217, 0.93); /*update by patty: changed bg color of table*/
     padding: 5px 20px 5px 20px;
     text-align: left;
   }
