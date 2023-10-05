@@ -85,7 +85,7 @@ body {
   }
   #buttons {
     text-align: center;
-    background-color: #1aaee4;
+    background-color: #f7771c; /*update by patty: changed bg color of button*/
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-style: none;
